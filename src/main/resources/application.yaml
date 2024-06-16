@@ -1,0 +1,23 @@
+#1.using Yaml
+server:
+  port: 9090
+
+
+#below code are not working properly. i think the need to change syntax 
+spring:
+  application:
+    name: DbUsingProfile
+  
+  profiles:
+    active: US
+    
+    
+    debug: true
+    
+    
+    #.using .properties
+    
+    
+#spring.application.name=DbUsingProfile
+#debug=true
+#spring.profiles.active=US    -- used to choose which profile to use
